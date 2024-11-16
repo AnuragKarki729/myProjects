@@ -1,0 +1,58 @@
+.adminContainer {
+    padding: 20px;
+  }
+  
+  .manageSection {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .manageSection h2 {
+    margin-top: 0;
+  }
+  
+  .trainerForm {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .trainerForm label {
+    margin-bottom: 10px;
+  }
+  
+  .trainerForm input,
+  .trainerForm select,
+  .trainerForm textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex; /* Changed from absolute to flex */
+    justify-content: center;
+    align-items: center; /* Center items vertically */
+    z-index: 1000; /* Make sure it's on top */
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    margin: 0; /* Set to 0 to avoid space from the top */
+    width: 80%; /* Modal width */
+    max-width: 600px; /* Max width */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease; /* Optional: add transition for smooth appearance */
+  }
+  

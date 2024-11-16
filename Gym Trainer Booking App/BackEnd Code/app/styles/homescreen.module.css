@@ -1,0 +1,9 @@
+.homescreenContainer {
+    padding: 20px;
+  }
+  
+  .trainersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
