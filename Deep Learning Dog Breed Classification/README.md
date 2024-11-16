@@ -52,11 +52,11 @@ These callbacks help the model optimize its performance while preventing unneces
 
 ### Screenshots
 - **Dog Image Predictions**
-![Image prediction 1](/images/image1.png)
+![Image prediction 1](./images/image1.png)
 
-![Image and Video Prediction](/images/image2.png)
+![Image and Video Prediction](./images/image2.png)
 
-![Image and Video Prediction 2](/images/image3.png)
+![Image and Video Prediction 2](./images/image3.png)
 
 ### How to Use
 - **Download All Files**
